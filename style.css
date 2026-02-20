@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(52, 49, 49);
+    color: aliceblue;
+}
+
+.card {
+
+    width: 90%;
+    max-width: 470px;
+    margin: 100px auto 0;
+    background: linear-gradient(120deg, #25ba93, rgb(40, 109, 107));
+    padding: 40px 35px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow:#25ba93;
+}
+.text{
+width: 100%;
+max-width: 300px;
+padding: 10px;
+border-radius: 10px;
+align-items: center;
+border: 1px solid rgb(0, 238, 255);
+}
+.search{
+
+border: 1px solid rgb(0, 238, 255);
+ margin: 10px;
+ padding: 10px;
+ border-radius: 80%;
+}
+.img{
+
+  width: 15px;
+  
+}
+.detail{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+   
+}
+.error{
+    display: none;
+    color: rgb(133, 62, 62);
+}
+.weather{
+    display: none;
+     transition: all 3s ease-in-out;
+}
+.temimg{
+   
+      width: 100%;
+      max-width: 150px;  
+}
+.humdetail{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+   padding: 20px;
+}
+.winddetail{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px;
+}
+.img2{
+    width: 100%;
+    max-width: 50px;
+margin-right: 20px;
+}
+h2{
+    font-size: 22px;
+
+}
+h3{
+    font-size: 17px;
+    margin-top: 10px;
+}
